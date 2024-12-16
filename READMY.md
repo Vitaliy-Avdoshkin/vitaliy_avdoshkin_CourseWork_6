@@ -61,5 +61,4 @@ poetry add django
 django-admin startproject config .
 ````
 
-2
 
