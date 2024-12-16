@@ -55,10 +55,16 @@ poetry add psycopg2
 poetry add django
 ````
 
-6. Инициализация проекта внутри текущей директории
-Для этого используется следующая команда:
+6. Инициализируйте django-проект внутри текущей директории
 ````
 django-admin startproject config .
 ````
 
 
+## Приложение по рассылки сообщений:
+
+1. Создайте приложение mailing
+````
+python manage.py startapp mailing
+````
+2. Зарегистрируйте приложение в settings.py
