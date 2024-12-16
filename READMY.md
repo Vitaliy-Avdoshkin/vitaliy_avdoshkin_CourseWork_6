@@ -52,7 +52,12 @@ max-line-length = 119
 poetry add requests
 poetry add python-dotenv
 poetry add psycopg2
+poetry add django
 ````
 
-
+6. Инициализация проекта внутри текущей директории
+Для этого используется следующая команда:
+````
+django-admin startproject config .
+````
 
