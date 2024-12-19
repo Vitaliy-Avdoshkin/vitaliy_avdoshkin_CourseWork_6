@@ -53,6 +53,7 @@ poetry add requests
 poetry add python-dotenv
 poetry add psycopg2
 poetry add django
+poetry add redis
 ````
 
 6. Инициализируйте django-проект внутри текущей директории
