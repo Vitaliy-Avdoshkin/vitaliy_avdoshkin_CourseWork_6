@@ -20,7 +20,6 @@ from django.contrib import admin
 from django.urls import include, path
 
 from config import settings
-from mailing import views
 from mailing.views import homeView
 
 urlpatterns = [

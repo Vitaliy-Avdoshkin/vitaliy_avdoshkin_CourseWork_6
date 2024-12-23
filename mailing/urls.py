@@ -1,6 +1,4 @@
-from django.conf import settings
-from django.conf.urls.static import static
-from django.urls import include, path
+from django.urls import path
 from django.views.decorators.cache import cache_page
 
 from mailing.apps import MailingConfig
@@ -27,8 +25,6 @@ from mailing.views import (
     ReceiveMailUpdateView,
     homeView,
 )
-
-from . import views
 
 app_name = MailingConfig.name
 
