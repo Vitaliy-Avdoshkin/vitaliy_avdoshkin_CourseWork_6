@@ -52,7 +52,20 @@ max-line-length = 119
 poetry add requests
 poetry add python-dotenv
 poetry add psycopg2
+poetry add django
+poetry add redis
+````
+
+6. Инициализируйте django-проект внутри текущей директории
+````
+django-admin startproject config .
 ````
 
 
+## Приложение по рассылки сообщений:
 
+1. Создайте приложение mailing
+````
+python manage.py startapp mailing
+````
+2. Зарегистрируйте приложение в settings.py
